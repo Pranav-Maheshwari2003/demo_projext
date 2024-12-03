@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Dashboard</title>
+  </head>
+
+  <body class="bg-gray-50">
+    <div class="flex">
+      <!-- Sidebar -->
+      <div class="w-64 text-white h-screen p-5 bg-white shadow-md">
+        <div class="flex items-center space-x-2 mb-8">
+          <div class="text-xl font-bold text-black">logo</div>
+          <div class="text-lg">🌐</div>
+        </div>
+        <nav class="space-y-4 text-black">
+          <a href="#" class="block py-2 px-3 rounded-md text-white bg-gray-800">
+            <i class="mr-1 fa-solid fa-house"></i>
+            Home</a
+          >
+          <a
+            href="#"
+            class="block py-2 px-3 rounded-md hover:bg-gray-700 hover:text-white"
+          >
+            <svg
+              aria-hidden="true"
+              focusable="false"
+              data-prefix="fas"
+              data-icon="grid-2"
+              role="img"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"
+              class="svg-inline--fa fa-grid-2 fa-lg"
+            >
+              <path
+                fill="currentColor"
+                d="M224 80c0-26.5-21.5-48-48-48L80 32C53.5 32 32 53.5 32 80l0 96c0 26.5 21.5 48 48 48l96 0c26.5 0 48-21.5 48-48l0-96zm0 256c0-26.5-21.5-48-48-48l-96 0c-26.5 0-48 21.5-48 48l0 96c0 26.5 21.5 48 48 48l96 0c26.5 0 48-21.5 48-48l0-96zM288 80l0 96c0 26.5 21.5 48 48 48l96 0c26.5 0 48-21.5 48-48l0-96c0-26.5-21.5-48-48-48l-96 0c-26.5 0-48 21.5-48 48zM480 336c0-26.5-21.5-48-48-48l-96 0c-26.5 0-48 21.5-48 48l0 96c0 26.5 21.5 48 48 48l96 0c26.5 0 48-21.5 48-48l0-96z"
+                class=""
+              ></path>
+            </svg>
+            Dashboard</a
+          >
+          <a
+            href="#"
+            class="block py-2 px-3 rounded-md hover:bg-gray-700 hover:text-white"
+          >
+            <i class="mr-1 fa-solid fa-book-open"></i> Projects</a
+          >
+          <a
+            href="#"
+            class="block py-2 px-3 rounded-md hover:bg-gray-700 hover:text-white"
+          >
+            <i class="mr-1 fa-solid fa-comments"></i>Discussions</a
+          >
+          <div class="mt-6 text-sm uppercase text-gray-400">Profile</div>
+          <a
+            href="#"
+            class="block py-2 px-3 rounded-md hover:bg-gray-700 hover:text-white"
+          >
+            <i class="mr-1 fa-solid fa-bag-shopping"></i>
+            Job Board</a
+          >
+          <a
+            href="#"
+            class="block py-2 px-3 rounded-md hover:bg-gray-700 hover:text-white"
+            ><i class="mr-1 fa-solid fa-gear"></i>Settings</a
+          >
+        </nav>
+        <button
+          class="mt-2 w-full bg-gray-800 text-sm py-2 px-3 rounded-md text-center"
+        >
+          Leave Feedback
+        </button>
+      </div>
+
+      <!-- Main Content -->
+      <div class="flex-1 p-6">
+        <!-- Header -->
+        <div class="flex items-center justify-between mb-6">
+          <div class="text-sm font-medium bg-gray-100 text-black py-2 px-4 flex  justify-center items-center">Browse Course
+            <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><polyline points="7 13 12 18 17 13"></polyline><polyline points="7 6 12 11 17 6"></polyline></svg>
+          </div>
+          <div class="flex items-center space-x-4">
+            <button class="text-gray-600">
+                <i class="fa-solid fa-bell"></i>
+            </button>
+            <div class="text-gray-800 font-semibold">Mohan</div>
+          </div>
+        </div>
+
+        <!-- Continue Learning Section -->
+        <section class="mb-12">
+          <h2 class="text-xl font-bold mb-2">Continue your learning, Mohan</h2>
+          <p class="text-gray-600 mb-4">
+            Lorem ipsum dolor sit amet consectetur.
+          </p>
+          <div class="grid grid-cols-2 gap-4">
+            <div class="p-4 bg-white rounded-lg shadow-md">
+              <h3 class="font-semibold mb-2">Data Science (Eng)</h3>
+              <div
+                class="flex flex-row text-sm text-gray-600 gap-3 justify-start items-center"
+              >
+                <span> 13 Lessons - Completed </span>
+
+                <div class="relative w-5 h-5 rounded-full bg-gray-200">
+                  <!-- Progress Layer -->
+                  <div
+                    class="absolute w-5 h-5 rounded-full bg-[conic-gradient(from_0deg,_yellow_0%,_yellow_75%,_transparent_75%)]"
+                  ></div>
+                  <!-- Inner Circle -->
+                  <div
+                    class="absolute inset-1 bg-white rounded-full flex items-center justify-center"
+                  >
+                    <!-- <span class="text-[7px] font-semibold text-gray-700">75%</span> -->
+                  </div>
+                </div>
+                30%
+              </div>
+            </div>
+            <div class="p-4 bg-white rounded-lg shadow-md">
+              <h3 class="font-semibold mb-2">Deep Learning + NLP +LLM</h3>
+              <div
+                class="flex flex-row text-sm text-gray-600 gap-3 justify-start items-center"
+              >
+                <span> 13 Lessons - Completed </span>
+
+                <div class="relative w-5 h-5 rounded-full bg-gray-200">
+                  <!-- Progress Layer -->
+                  <div
+                    class="absolute w-5 h-5 rounded-full bg-[conic-gradient(from_0deg,_green_0%,_green_65%,_transparent_65%)]"
+                  ></div>
+                  <!-- Inner Circle -->
+                  <div
+                    class="absolute inset-1 bg-white rounded-full flex items-center justify-center"
+                  >
+                    <!-- <span class="text-[7px] font-semibold text-gray-700">75%</span> -->
+                  </div>
+                </div>
+                55%
+              </div>
+            </div>
+            <div class="p-4 bg-white rounded-lg shadow-md">
+              <h3 class="font-semibold mb-2">Deep Learning + NLP +LLM</h3>
+              <div
+                class="flex flex-row text-sm text-gray-600 gap-3 justify-start items-center"
+              >
+                <span> 13 Lessons - Completed </span>
+
+                <div class="relative w-5 h-5 rounded-full bg-gray-200">
+                  <!-- Progress Layer -->
+                  <div
+                    class="absolute w-5 h-5 rounded-full bg-[conic-gradient(from_0deg,_red_0%,_red_25%,_transparent_25%)]"
+                  ></div>
+                  <!-- Inner Circle -->
+                  <div
+                    class="absolute inset-1 bg-white rounded-full flex items-center justify-center"
+                  >
+                    <!-- <span class="text-[7px] font-semibold text-gray-700">75%</span> -->
+                  </div>
+                </div>
+                5%
+              </div>
+            </div>
+            <div class="p-4 bg-white rounded-lg shadow-md">
+              <h3 class="font-semibold mb-2">Deep Learning + NLP +LLM</h3>
+              <div
+                class="flex flex-row text-sm text-gray-600 gap-3 justify-start items-center"
+              >
+                <span> 13 Lessons - Completed </span>
+
+                <div class="relative w-5 h-5 rounded-full bg-gray-200">
+                  <!-- Progress Layer -->
+                  <div
+                    class="absolute w-5 h-5 rounded-full bg-[conic-gradient(from_0deg,_#FEDD00_0%,_#FEDD00_45%,_transparent_45%)]"
+                  ></div>
+                  <!-- Inner Circle -->
+                  <div
+                    class="absolute inset-1 bg-white rounded-full flex items-center justify-center"
+                  >
+                    <!-- <span class="text-[7px] font-semibold text-gray-700">75%</span> -->
+                  </div>
+                </div>
+                40%
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Recommended Courses Section -->
+        <section>
+          <h2 class="text-xl font-bold mb-4">Top Recommended Course</h2>
+          <div class="grid grid-cols-3 gap-4">
+            <div class="p-4 bg-white rounded-md shadow-md">
+              <div class="text-sm rounded inline-block mb-2 relative">
+                <span
+                  class="absolute top-0 left-2 bg-transparent text-white font-bold"
+                >
+                  Weekends
+                </span>
+                <img
+                  src="https://images.pexels.com/photos/13988974/pexels-photo-13988974.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                  class="rounded-lg"
+                />
+              </div>
+              <h3 class="font-semibold mb-2">Python + Statistics</h3>
+              <p class="text-sm text-gray-600">
+                Foundation for Data Science, Data Analytics & Business Analytics
+              </p>
+              <p class="text-sm text-gray-600">Starts on 11 Nov, 2024</p>
+              <p class="text-sm text-gray-600">Timings: 9pm - 11pm</p>
+              <p class="text-sm text-gray-600">Language: Hindi</p>
+              <p class="text-gray-500 line-through mt-2">₹50,000</p>
+              <p class="text-green-600 font-semibold">50% OFF Applied</p>
+              <button
+                class="mt-2 w-full bg-purple-600 text-white py-2 px-4 rounded-md"
+              >
+                Buy at ₹24,699
+              </button>
+            </div>
+            <div class="p-4 bg-white rounded-md shadow-md">
+              <div class="text-sm rounded inline-block mb-2 relative">
+                <span
+                  class="absolute top-0 left-2 bg-transparent text-white font-bold"
+                >
+                  Weekends
+                </span>
+                <img
+                  src="https://images.pexels.com/photos/13988974/pexels-photo-13988974.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                  class="rounded-lg"
+                />
+              </div>
+              <h3 class="font-semibold mb-2">Python + Statistics</h3>
+              <p class="text-sm text-gray-600">
+                Foundation for Data Science, Data Analytics & Business Analytics
+              </p>
+              <p class="text-sm text-gray-600">Starts on 11 Nov, 2024</p>
+              <p class="text-sm text-gray-600">Timings: 9pm - 11pm</p>
+              <p class="text-sm text-gray-600">Language: Hindi</p>
+              <p class="text-gray-500 line-through mt-2">₹50,000</p>
+              <p class="text-green-600 font-semibold">50% OFF Applied</p>
+              <button
+                class="mt-2 w-full bg-purple-600 text-white py-2 px-4 rounded-md"
+              >
+                Buy at ₹24,699
+              </button>
+            </div>
+            <div class="p-4 bg-white rounded-md shadow-md">
+              <div class="text-sm rounded inline-block mb-2 relative">
+                <span
+                  class="absolute top-0 left-2 bg-transparent text-white font-bold"
+                >
+                  Weekends
+                </span>
+                <img
+                  src="https://images.pexels.com/photos/13988974/pexels-photo-13988974.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                  class="rounded-lg"
+                />
+              </div>
+              <h3 class="font-semibold mb-2">Python + Statistics</h3>
+              <p class="text-sm text-gray-600">
+                Foundation for Data Science, Data Analytics & Business Analytics
+              </p>
+              <p class="text-sm text-gray-600">Starts on 11 Nov, 2024</p>
+              <p class="text-sm text-gray-600">Timings: 9pm - 11pm</p>
+              <p class="text-sm text-gray-600">Language: Hindi</p>
+              <p class="text-gray-500 line-through mt-2">₹50,000</p>
+              <p class="text-green-600 font-semibold">50% OFF Applied</p>
+              <button
+                class="mt-2 w-full bg-purple-600 text-white py-2 px-4 rounded-md"
+              >
+                Buy at ₹24,699
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="mt-12 text-gray-500 flex flex-col gap-2 justify-start">
+          <p class="text-3xl">
+            Crafted in
+            <span class="font-semibold text-gray-800">INDIA</span> For
+          </p>
+          <p class="text-3xl">
+            <span class="font-semibold text-gray-800">
+              For Aspiring Indians</span
+            >
+          </p>
+          <p>with lot of love ❤️</p>
+        </footer>
+      </div>
+    </div>
+  </body>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/js/all.min.js"
+    integrity="sha512-1JkMy1LR9bTo3psH+H4SV5bO2dFylgOy+UJhMus1zF4VEFuZVu5lsi4I6iIndE4N9p01z1554ZDcvMSjMaqCBQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+</html>
